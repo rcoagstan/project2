@@ -44,3 +44,7 @@ Route::get('/shoping-cart', function () {
 Route::get('/register', function () {
     return view('ecommerce.register');
 });
+
+Route::get('/base', function () {
+    return view('admintmpt.base');
+});
