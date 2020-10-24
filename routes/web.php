@@ -48,3 +48,23 @@ Route::get('/register', function () {
 Route::get('/base', function () {
     return view('admintmpt.base');
 });
+
+Route::get('/beranda', function () {
+    return view('admintmpt.beranda');
+});
+
+Route::get('/kategori', function () {
+    return view('admintmpt.kategori');
+});
+
+Route::get('/login', function () {
+    return view('admintmpt.login');
+});
+
+Route::get('/produk', function () {
+    return view('admintmpt.produk');
+});
+
+Route::get('/register', function () {
+    return view('admintmpt.register');
+});
